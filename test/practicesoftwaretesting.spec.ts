@@ -14,7 +14,7 @@ describe('practice software testing', () => {
   let token = '';
   let brandId = '';
 
-  p.request.setDefaultTimeout(60000);
+  p.request.setDefaultTimeout(100000);
 
   beforeAll(async () => {
     p.reporter.add(rep);

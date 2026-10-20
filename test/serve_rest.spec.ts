@@ -15,7 +15,7 @@ describe('ServeRest API', () => {
   const rep = SimpleReporter;
   const baseUrl = 'https://serverest.dev';
 
-  p.request.setDefaultTimeout(90000);
+  p.request.setDefaultTimeout(200000);
 
   beforeAll(async () => {
     p.reporter.add(rep);
